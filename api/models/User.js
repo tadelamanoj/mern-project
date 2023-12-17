@@ -13,10 +13,10 @@ const UserSchema = mongoose.Schema(
     gender: {
       type: String,
     },
-    // address: {
-    //   type: String,
-    //   default: "",
-    // },
+    address: {
+      type: String,
+      default: "",
+    },
   },
   {collection:"mern_datas", timestamps: true }
 );
